@@ -1,19 +1,9 @@
-<!-- index.html-->
+{% extends "layout.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
-    <style>
-        body{
-            background-color:#000;
-            color: #FFF
-        }
-    </style>
-</head>
-<body>
-    This is html template !
-</body>
-</html>
+{% block title %}
+    Tweet Page Template
+{% endblock  %}
+
+{% block content %}
+    <h1 class="text-center mt-4">This is Django  template of tweetnow app</h1>
+{% endblock  %}
